@@ -28,7 +28,7 @@ namespace vMenuClient
             {
                 Label = $"~h~{MainMenu.Version}~h~"
             };
-            MenuItem credits = new MenuItem("About vMenu / Credits", "vMenu is made by ~b~Vespura~s~. For more info, checkout ~b~www.vespura.com/vmenu~s~. Thank you to: Deltanic, Brigliar, IllusiveTea, Shayan Doust and zr0iq for your contributions.");
+            MenuItem credits = new MenuItem("About vMenu / Credits", "The Wilderness is made by ~b~Girthquake~s~. To join discord, go to ~b~https://discord.gg/8Buha9VTfx~s~. Thank you.");
 
             string serverInfoMessage = vMenuShared.ConfigManager.GetSettingsString(vMenuShared.ConfigManager.Setting.vmenu_server_info_message);
             if (!string.IsNullOrEmpty(serverInfoMessage))
